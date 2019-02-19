@@ -145,16 +145,182 @@ textarea {
       margin: 0;
       }
 
+.green-text {
+
+}
+
+header, footer {
+
+}
+
+/****** Mobile Styles - HEADER ******/
+header {
+
+}
+
+nav {
+
+}
+
+ul {
+
+}
+
+ul li {
+
+}
+
+.header-divider {
+
+}
+
+/****** Mobile Styles - HERO ******/
+
+.hero-area {
+
+}
+
+.hero-area .content-wrapper {
+
+}
+
+.hero-area p {
+
+}
 
 
+/****** Mobile Styles - FOOTER ******/
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+footer h3 {
+
+}
+
+footer p {
+
+}
+
+/****** Mobile Styles - NUMBERS ******/
+.numbers {
+
+}
+
+.numbers .content-wrapper {
+
+}
+
+.box {
+
+}
+
+.box h4 {
+
+}
+
+.black-box {
+  background-color: black;
+  color: white;
+}
+
+/****** Mobile Styles - ABOUT ******/
+.about {
+
+}
+
+.about .content-wrapper {
+
+}
+
+.about p {
+
+}
+
+.map {
+
+}
+
+.map .content-wrapper {
+
+}
+
+/****** Mobile Styles - CONTACT ******/
+
+.contact-section {
+
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.email-button {
+
+}
+
+.email-button h3 {
+
+}
+
+/****** Mobile Styles - PROJECTS ******/
+
+.current-projects {
+
+}
+
+.current-projects .content-wrapper {
+
+}
+
+.previous-projects {
+
+}
+
+.previous-projects .content-wrapper {
+
+}
 
 
+/****** Mobile Styles - SERVICES ******/
+
+.about-supernova {
+
+}
+
+.about-supernova .content-wrapper {
+
+}
 
 
+.what-we-do {
 
+}
 
+.what-we-do .content-wrapper {
 
+}
 
+.area {
+
+}
+
+.features-items {
+
+}
+
+.features-items article {
+
+}
+
+.features-items .fontawesome-icon {
+
+}
 
 
 
