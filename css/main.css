@@ -105,7 +105,6 @@ textarea {
 
    body {
      font-size: 1em;
-     background-color: ;
    }
 
    ul,
@@ -167,12 +166,12 @@ header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /****** Mobile Styles - HEADER ******/
 header {
-  text-transform: uppercase;
-  background-color: black;
+  background-color: #0c0c0c;
 }
 
 header .content-wrapper {
@@ -180,6 +179,15 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 50%;
 }
 
 header nav {
@@ -189,6 +197,7 @@ header nav {
   flex-flow: row wrap;
   text-align: center;
   color: white;
+  text-transform: uppercase;
 }
 
 ul {
@@ -211,13 +220,21 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #0c0c0c;
   color: white;
   text-align: center;
 }
 
 .hero-area .content-wrapper {
 
+}
+
+.hero-area figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 .hero-area p {
@@ -336,7 +353,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #0a0a0a;
 }
 
 .current-projects .content-wrapper {
@@ -360,7 +377,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #0a0a0a;
   color: white;
 }
 
