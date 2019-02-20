@@ -100,41 +100,44 @@ textarea {
    /* -------- GLOBAL STYLES -------- */
 
    html {
-
+     font-size: 16px;
    }
 
    body {
-
+     font-size: 1em;
+     background-color: ;
    }
 
    ul,
    ol {
-
+     list-style: none;
+     font-family: 'Raleway', sans-serif;
    }
 
    a {
-
+     text-decoration: none;
    }
 
    h2 {
-
+     text-align: center;
+     font-family: 'Oswald', sans-serif;
     }
 
    h3,
    h4 {
-
+     font-family: 'Oswald', sans-serif;
    }
 
    h3 {
-
+     font-family: 'Oswald', sans-serif;
    }
 
    h4 {
-
+     font-family: 'Oswald', sans-serif;
    }
 
    p {
-
+     font-family: 'Open sans', sans-serif;
    }
 
    img {
@@ -145,21 +148,47 @@ textarea {
       margin: 0;
       }
 
-.green-text {
+    address {
+      font-family: 'Open sans', sans-serif;
+      }
 
+.content-wrapper {
+  width: 90%;
+  margin: 20px 0;
 }
 
-header, footer {
+.green-text {
+  color: #47b9b0;
+}
 
+/****** Base Header - HEADER & FOOTER ******/
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /****** Mobile Styles - HEADER ******/
 header {
-
+  text-transform: uppercase;
+  background-color: black;
 }
 
-nav {
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+  color: white;
 }
 
 ul {
@@ -171,13 +200,20 @@ ul li {
 }
 
 .header-divider {
-
+  background: white;
+  width: 100%;
+  height: 1px;
 }
 
 /****** Mobile Styles - HERO ******/
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .hero-area .content-wrapper {
@@ -192,11 +228,19 @@ ul li {
 /****** Mobile Styles - FOOTER ******/
 
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 150px;
 }
 
 footer .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer h3 {
@@ -209,15 +253,22 @@ footer p {
 
 /****** Mobile Styles - NUMBERS ******/
 .numbers {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .numbers .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .box {
-
+  background-color: #ededed;
+  margin: 15px 0;
+  padding: 10px;
 }
 
 .box h4 {
@@ -229,9 +280,15 @@ footer p {
   color: white;
 }
 
+.black-box h4 {
+  color: #47b9b0;
+}
+
 /****** Mobile Styles - ABOUT ******/
 .about {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about .content-wrapper {
@@ -243,7 +300,10 @@ footer p {
 }
 
 .map {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .map .content-wrapper {
@@ -253,7 +313,9 @@ footer p {
 /****** Mobile Styles - CONTACT ******/
 
 .contact-section {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-section .content-wrapper {
@@ -271,7 +333,10 @@ footer p {
 /****** Mobile Styles - PROJECTS ******/
 
 .current-projects {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
 .current-projects .content-wrapper {
@@ -279,7 +344,9 @@ footer p {
 }
 
 .previous-projects {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .previous-projects .content-wrapper {
@@ -290,7 +357,11 @@ footer p {
 /****** Mobile Styles - SERVICES ******/
 
 .about-supernova {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
 }
 
 .about-supernova .content-wrapper {
@@ -299,7 +370,9 @@ footer p {
 
 
 .what-we-do {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .what-we-do .content-wrapper {
@@ -311,7 +384,11 @@ footer p {
 }
 
 .features-items {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
 }
 
 .features-items article {
